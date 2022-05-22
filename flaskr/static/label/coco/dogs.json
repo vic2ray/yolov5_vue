@@ -1,0 +1,119 @@
+[
+    {
+        "content": [
+            {
+                "x": 82.5,
+                "y": 90.5
+            },
+            {
+                "x": 218.5,
+                "y": 90.5
+            },
+            {
+                "x": 218.5,
+                "y": 276.5
+            },
+            {
+                "x": 82.5,
+                "y": 276.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 82.5,
+            "yMin": 90.5,
+            "width": 136,
+            "height": 186,
+            "iWidth": 500,
+            "iHeight": 333
+        },
+        "labels": {
+            "labelColor": "#00d5ff",
+            "labelColorRGB": "0,213,255",
+            "labelName": "teddy",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 150.5,
+            "y": 183.5
+        },
+        "contentType": "rect"
+    },
+    {
+        "content": [
+            {
+                "x": 191.5,
+                "y": 118.5
+            },
+            {
+                "x": 296.5,
+                "y": 118.5
+            },
+            {
+                "x": 296.5,
+                "y": 284.5
+            },
+            {
+                "x": 191.5,
+                "y": 284.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 191.5,
+            "yMin": 118.5,
+            "width": 105,
+            "height": 166,
+            "iWidth": 500,
+            "iHeight": 333
+        },
+        "labels": {
+            "labelColor": "#00d5ff",
+            "labelColorRGB": "0,213,255",
+            "labelName": "teddy",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 244,
+            "y": 201.5
+        },
+        "contentType": "rect"
+    },
+    {
+        "content": [
+            {
+                "x": 276.5,
+                "y": 162.5
+            },
+            {
+                "x": 407.5,
+                "y": 162.5
+            },
+            {
+                "x": 407.5,
+                "y": 316.5
+            },
+            {
+                "x": 276.5,
+                "y": 316.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 276.5,
+            "yMin": 162.5,
+            "width": 131,
+            "height": 154,
+            "iWidth": 500,
+            "iHeight": 333
+        },
+        "labels": {
+            "labelColor": "#00d5ff",
+            "labelColorRGB": "0,213,255",
+            "labelName": "teddy",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 342,
+            "y": 239.5
+        },
+        "contentType": "rect"
+    }
+]

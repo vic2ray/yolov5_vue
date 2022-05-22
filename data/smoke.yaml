@@ -1,0 +1,5 @@
+names:
+- smoke
+nc: 1
+train: flaskr/static/dataset/images/smoke
+val: flaskr/static/dataset/images/smoke

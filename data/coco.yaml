@@ -1,0 +1,12 @@
+names:
+- flower
+- guitar
+- basketball
+- car
+- dog
+- teddy
+- soccerball
+- glass
+nc: 8
+train: flaskr/static/dataset/images/coco
+val: flaskr/static/dataset/images/coco

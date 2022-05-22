@@ -1,0 +1,41 @@
+[
+    {
+        "content": [
+            {
+                "x": 283.5,
+                "y": 211
+            },
+            {
+                "x": 331.5,
+                "y": 211
+            },
+            {
+                "x": 331.5,
+                "y": 231
+            },
+            {
+                "x": 283.5,
+                "y": 231
+            }
+        ],
+        "rectMask": {
+            "xMin": 283.5,
+            "yMin": 211,
+            "width": 48,
+            "height": 20,
+            "iWidth": 480,
+            "iHeight": 360
+        },
+        "labels": {
+            "labelName": "smoke",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 307.5,
+            "y": 221
+        },
+        "contentType": "rect"
+    }
+]

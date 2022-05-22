@@ -1,0 +1,80 @@
+[
+    {
+        "content": [
+            {
+                "x": 334.5,
+                "y": 230
+            },
+            {
+                "x": 462.5,
+                "y": 230
+            },
+            {
+                "x": 462.5,
+                "y": 333
+            },
+            {
+                "x": 334.5,
+                "y": 333
+            }
+        ],
+        "rectMask": {
+            "xMin": 334.5,
+            "yMin": 230,
+            "width": 128,
+            "height": 103,
+            "iWidth": 600,
+            "iHeight": 400
+        },
+        "labels": {
+            "labelName": "smoke",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 398.5,
+            "y": 281.5
+        },
+        "contentType": "rect"
+    },
+    {
+        "content": [
+            {
+                "x": 344.5,
+                "y": 338
+            },
+            {
+                "x": 461.5,
+                "y": 338
+            },
+            {
+                "x": 461.5,
+                "y": 397
+            },
+            {
+                "x": 344.5,
+                "y": 397
+            }
+        ],
+        "rectMask": {
+            "xMin": 344.5,
+            "yMin": 338,
+            "width": 117,
+            "height": 59,
+            "iWidth": 600,
+            "iHeight": 400
+        },
+        "labels": {
+            "labelName": "smoke",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 403,
+            "y": 367.5
+        },
+        "contentType": "rect"
+    }
+]

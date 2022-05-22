@@ -1,0 +1,32 @@
+# 基于cuda镜像
+FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
+# 更新，安装nginx
+RUN apt update
+RUN apt upgrade -y
+RUN apt install -y nginx
+RUN apt install -y libgl1-mesa-glx
+RUN apt install -y libglib2.0-dev
+RUN apt install -y vim wget
+# 安装 python3.8.5
+RUN apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev
+RUN apt install libsqlite3-dev
+RUN wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
+RUN tar -xvf Python-3.8.5.tgz
+RUN cd Python-3.8.5 && ./configure prefix=/usr/local/python38 && make && make install
+RUN ln -s /usr/local/python38/bin/python3.8 /usr/bin/python
+# 安装 pip3
+# RUN apt-get -y install python3-pip
+RUN python -m pip install --upgrade pip --force-reinstall
+RUN ln -s /usr/local/python38/bin/pip3 /usr/bin/pip
+# 设置目录
+WORKDIR /train
+# 复制文件
+ADD . /train
+RUN chmod +x startup.sh
+# 安装依赖
+RUN pip install -r requirements.txt -i https://pypi.douban.com/simple
+RUN pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 \
+    -f https://download.pytorch.org/whl/torch_stable.html
+# 启动
+EXPOSE 80
+CMD ["./startup.sh"]

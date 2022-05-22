@@ -1,0 +1,41 @@
+[
+    {
+        "content": [
+            {
+                "x": 196.5,
+                "y": 160
+            },
+            {
+                "x": 348.5,
+                "y": 160
+            },
+            {
+                "x": 348.5,
+                "y": 195
+            },
+            {
+                "x": 196.5,
+                "y": 195
+            }
+        ],
+        "rectMask": {
+            "xMin": 196.5,
+            "yMin": 160,
+            "width": 152,
+            "height": 35,
+            "iWidth": 900,
+            "iHeight": 506
+        },
+        "labels": {
+            "labelColor": "#48a1b3",
+            "labelColorRGB": "72,161,179",
+            "labelName": "glass",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 272.5,
+            "y": 177.5
+        },
+        "contentType": "rect"
+    }
+]
